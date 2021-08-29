@@ -15,3 +15,6 @@
 
 <p>Vai abrir em seu navegador a landinpage</p>
  <p>pnpm start --filter @dev-register/web</p>
+
+ <p>Para acessar Swagger a rota é:</p>
+ <p>http://localhost:9000/api-docs</p>
