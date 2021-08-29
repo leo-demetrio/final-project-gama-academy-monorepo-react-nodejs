@@ -8,18 +8,14 @@ export class UserResponses {
         return  [{
             message: "Usuário criado com sucesso!!",
             _id: user._id,
-            name: user.name,
-            password: user.password,            
-            avatar: user.avatar
+            name: user.name
         }];
     }
     public static responsePostNotCreated(user) {
         return  [{
             message: "Usuário não pôde sercriado com sucesso!!",
             _id: user._id,
-            name: user.name,
-            password: user.password,
-            avatar: user.avatar
+            name: user.name
         }];
     }
 }

@@ -11,6 +11,7 @@ export interface UserInterface {
     zipcode: string,
     neighborhood: string,
     address: string,
+    number: String,
     city: string,
     sex: string
 }

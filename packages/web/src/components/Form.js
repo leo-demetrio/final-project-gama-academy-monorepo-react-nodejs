@@ -17,6 +17,7 @@ const initialValues = {
     zipcode: '',
     neighborhood: '',
     address: '',
+    number: '',
     city: '',
     sex: ''
 }
@@ -92,11 +93,11 @@ function Form() {
                     </div>
                     <div className="input-box">
                         <span className="details">Telefone fixo 2</span>
-                        <input onChange={onChange} name="fixedline2" type="tel" placeholder="telefone" required />
+                        <input onChange={onChange} name="fixedline2" type="tel" placeholder="telefone" />
                     </div>
                     <div className="input-box">
                         <span className="details">Celular</span>
-                        <input onChange={onChange} name="celphone" type="tel" placeholder="Enter your name" required />
+                        <input onChange={onChange} name="celphone" type="tel" placeholder="Enter your name" required/>
                     </div>
                     <div className="input-box">
                         <span className="details">Cep</span>
