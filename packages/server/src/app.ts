@@ -2,7 +2,10 @@ import express from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import userRouter from './routes/userRoutes';
+import swaggerUi from 'swagger-ui-express';
+import swaggerDocs from './swagger.json';
 import 'dotenv/config';
+
 
 export class App {
     private express: express.Application;
@@ -23,6 +26,7 @@ export class App {
     private middlewares() {
         this.express.use(express.json());
         this.express.use(cors());
+        this.express.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
     }
 
    

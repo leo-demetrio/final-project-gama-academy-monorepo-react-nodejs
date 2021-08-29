@@ -1,0 +1,9 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+        "title": "API Projeto final Gama Academy",
+        "description": "Essa API tem como objetivo registrar informações de um usuário"
+    },
+    "version": "1.0.0"
+
+}
