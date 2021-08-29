@@ -6,6 +6,7 @@
 
 <p> Para rodá-lo em sua máquina basta rodar os seguintes comandos</p>
 <p>Instala os pacotes</p>
+<p> pnpm install </p>
 <p> pnpm install --filter @dev-register/server</p>
 <p>pnpm install --filter @dev-register/web</p>
 
