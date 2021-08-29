@@ -6,11 +6,11 @@
 
 <p> Para rodá-lo em sua máquina basta rodar os seguintes comandos</p>
 <p>Instala os pacotes</p>
- pnpm install --filter @dev-register/server
- pnpm install --filter @dev-register/web
+<span> pnpm install --filter @dev-register/server</span>
+<span>pnpm install --filter @dev-register/web</span>
 
 <p>Starta o servidor</p>
-pnpm start --filter @dev-register/server
+<span>pnpm start --filter @dev-register/server</span>
 
 <p>Vai abrir em seu navegador a landinpage</p>
- pnpm start --filter @dev-register/web
+ <span>pnpm start --filter @dev-register/web</span>
